@@ -7,6 +7,10 @@ const FormVagasStyle = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
 `
 
 export default FormVagasStyle
@@ -25,6 +29,10 @@ const BtnPesquisar = styled.button`
 const Campo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export { BtnPesquisar, Campo }
